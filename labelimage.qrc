@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/actual-size.png</file>
+        <file>images/fit-to-window.png</file>
+        <file>images/folder.png</file>
+        <file>images/fullscreen.png</file>
+        <file>images/quit.png</file>
+        <file>images/redo.png</file>
+        <file>images/resize.png</file>
+        <file>images/undo.png</file>
+        <file>images/zoom-in.png</file>
+        <file>images/zoom-out.png</file>
+        <file>images/about.png</file>
+        <file>images/en_US.png</file>
+        <file>images/help.png</file>
+        <file>images/language.png</file>
+        <file>images/zh_CN.png</file>
+        <file>languages/en_US.qm</file>
+        <file>languages/zh_CN.qm</file>
+        <file>images/draw.ico</file>
+        <file>images/edit.png</file>
+        <file>images/draw.png</file>
+        <file>images/pan.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/paste.png</file>
+        <file>images/next.png</file>
+        <file>images/prev.png</file>
+        <file>images/delete.png</file>
+        <file>images/hand.png</file>
+        <file>images/bg.png</file>
+        <file>images/ploy.png</file>
+        <file>images/brush.png</file>
+        <file>images/home.png</file>
+        <file>images/magic.png</file>
+        <file>images/editploy.png</file>
+        <file>images/export.png</file>
+        <file>images/augment.png</file>
+    </qresource>
+</RCC>
