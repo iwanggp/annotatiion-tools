@@ -1,6 +1,20 @@
 # labelimage
 
-<p><b>Image Labeler 2.1.2</b> is based on Qt 5.12.3 and FreeImage 3.18.</p>
+深度学习标注工具
+
+满足了常见的深度学习标注任务，主要包括如下的内容：
+
+ 1.分类任务
+
+2. 目标检测
+3. OCR
+4. 语义分割
+
+整个内容如下图所示：
+
+![](/Users/gongpengwang/Desktop/深度学习标注工具应用.png)
+
+<p><b>Image Labeler 3.1.2</b> is based on Qt 5.12.3 and FreeImage 3.18.</p>
 
 <p>
 Press <b>Right Mouse Button</b> on selected box to change target type.<br />
