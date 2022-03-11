@@ -12,7 +12,7 @@
 
 整个内容如下图所示：
 
-![](/Users/gongpengwang/Documents/github/annotatiion-tools/md-files/深度学习标注工具应用.png)
+![](./md-files/深度学习标注工具应用.png)
 
 <p><b>Image Labeler 3.1.2</b> is based on Qt 5.12.3 and FreeImage 3.18.</p>
 
