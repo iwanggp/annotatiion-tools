@@ -1,4 +1,4 @@
-#include "customscene.h"
+﻿#include "customscene.h"
 #include <QtDebug>
 #include <QScrollBar>
 //添加Json模块
@@ -268,33 +268,33 @@ void CustomScene::registerItem(PointItem *p)
 void CustomScene::saveBoxItemsToFile()
 {
     QFile file(_boxItemFileName);
-    QFile file_voc(_boxItemVOCFileName);//VOC格式的标签文件
+//    QFile file_voc(_boxItemVOCFileName);//VOC格式的标签文件
     file.open(QIODevice::WriteOnly | QIODevice::Text);
-    file_voc.open(QIODevice::WriteOnly | QIODevice::Text);
+//    file_voc.open(QIODevice::WriteOnly | QIODevice::Text);
     qreal label[4];
     int voc_label[4];
     QTextStream out(&file);
-    QTextStream out_voc(&file_voc);
-    QString voc_s;
-    voc_s.sprintf("%s ",_fileName.toStdString().c_str());
-    out_voc<<voc_s;
+//    QTextStream out_voc(&file_voc);
+//    QString voc_s;
+//    voc_s.sprintf("%s ",_fileName.toStdString().c_str());
+//    out_voc<<voc_s;
     foreach (QGraphicsItem *item, this->items()) {
         if (item->type() == QGraphicsItem::UserType+1) {
             BoxItem *b = qgraphicsitem_cast<BoxItem *>(item);
             b->rect(label);
-            b->rect_voc(voc_label);
+//            b->rect_voc(voc_label);
             QString s;
             s.sprintf("%d %f %f %f %f\n",
                       _typeNameList.indexOf(b->typeName()),
                       label[0],label[1],label[2],label[3]);
-            voc_s.sprintf("%d,%d,%d,%d,%d ",
-                          voc_label[0],voc_label[1],voc_label[2],voc_label[3],_typeNameList.indexOf(b->typeName()));
+//            voc_s.sprintf("%d,%d,%d,%d,%d ",
+//                          voc_label[0],voc_label[1],voc_label[2],voc_label[3],_typeNameList.indexOf(b->typeName()));
             out << s;
 //            out_voc<<voc_s;
         }
     }
     file.close();
-    file_voc.close();
+//    file_voc.close();
 }
 /**
   *保存分类任务的结果
