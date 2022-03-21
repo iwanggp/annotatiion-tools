@@ -11,7 +11,7 @@
 
 整个内容如下图所示：
 
-![整体](https://github.com/iwanggp/annotatiion-tools/tree/main/md-files/whole.png)
+![整体](../md-files/whole.png)
 
 <p><b>Image Labeler 3.1.2</b> is based on Qt 5.12.3 and FreeImage 3.18.</p>
 
