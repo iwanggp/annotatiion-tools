@@ -13,6 +13,12 @@
 
 ![整体](./md-files/whole.png)
 
+具体操作演示如下的视频(请忽略水印)：
+
+![video](./md-files/1.gif)
+
+
+
 <p><b>Image Labeler 3.1.2</b> is based on Qt 5.12.3 and FreeImage 3.18.</p>
 
 <p>
