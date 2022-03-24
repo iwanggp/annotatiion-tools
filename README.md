@@ -1,6 +1,6 @@
 # labelimage
 
-[toc]
+！[toc]
 
 ## 前言
 
